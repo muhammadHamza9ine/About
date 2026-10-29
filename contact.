@@ -1,0 +1,526 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#0B1020">
+
+    <title>Contact Us | Word Matching Card Puzzle</title>
+
+    <meta name="description"
+          content="Contact the Word Matching Card Puzzle support team for game issues, lost progress, advertising problems, feedback, and suggestions.">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --bg: #0B1020;
+            --card: #111A2E;
+            --border: #263450;
+            --text: #E5E7EB;
+            --muted: #A7B4CC;
+            --primary: #818CF8;
+            --purple: #7C3AED;
+            --blue: #2563EB;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background:
+                radial-gradient(circle at 10% 5%, #312E8140, transparent 35%),
+                radial-gradient(circle at 90% 85%, #6D28D930, transparent 35%),
+                var(--bg);
+            color: var(--text);
+            line-height: 1.8;
+            min-height: 100vh;
+            padding: 30px 16px;
+        }
+
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        .container {
+            max-width: 850px;
+            margin: 0 auto;
+            background: rgba(17, 26, 46, 0.96);
+            border: 1px solid var(--border);
+            border-radius: 22px;
+            overflow: hidden;
+            box-shadow: 0 25px 70px #00000050;
+        }
+
+        .header {
+            text-align: center;
+            padding: 48px 28px 42px;
+            background: linear-gradient(
+                135deg,
+                #312E81 0%,
+                #6D28D9 50%,
+                #2563EB 100%
+            );
+            position: relative;
+            overflow: hidden;
+        }
+
+        .header::before,
+        .header::after {
+            content: "";
+            position: absolute;
+            border-radius: 50%;
+            border: 1px solid #FFFFFF25;
+            pointer-events: none;
+        }
+
+        .header::before {
+            width: 180px;
+            height: 180px;
+            top: -95px;
+            right: -45px;
+        }
+
+        .header::after {
+            width: 130px;
+            height: 130px;
+            bottom: -80px;
+            left: -25px;
+        }
+
+        .logo {
+            width: 76px;
+            height: 76px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 20px;
+            border-radius: 22px;
+            background: #FFFFFF20;
+            border: 1px solid #FFFFFF55;
+            box-shadow: 0 8px 30px #00000025;
+            font-size: 28px;
+            font-weight: 900;
+            color: white;
+            letter-spacing: -2px;
+        }
+
+        .header h1 {
+            color: white;
+            font-size: clamp(30px, 5vw, 40px);
+            line-height: 1.3;
+            margin-bottom: 12px;
+        }
+
+        .header p {
+            color: #E0E7FF;
+            font-size: 15px;
+            max-width: 480px;
+            margin: 0 auto;
+        }
+
+        .content {
+            padding: 35px;
+        }
+
+        .welcome {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .welcome h2 {
+            font-size: 25px;
+            color: #C4B5FD;
+            margin-bottom: 12px;
+        }
+
+        .welcome p {
+            color: var(--muted);
+            margin-bottom: 12px;
+        }
+
+        .section-label {
+            font-size: 13px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: var(--primary);
+            font-weight: bold;
+            margin-bottom: 16px;
+        }
+
+        .topics {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 14px;
+            margin-bottom: 32px;
+        }
+
+        .topic {
+            display: flex;
+            align-items: flex-start;
+            gap: 13px;
+            padding: 19px 16px;
+            border-radius: 14px;
+            border: 1px solid var(--border);
+            background: linear-gradient(145deg, #192641, #121B30);
+            transition: transform 0.25s ease,
+                        border-color 0.25s ease,
+                        background 0.25s ease;
+        }
+
+        .topic:hover {
+            transform: translateY(-4px);
+            border-color: #818CF8A0;
+            background: #202D49;
+        }
+
+        .topic-icon {
+            width: 42px;
+            height: 42px;
+            flex-shrink: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 12px;
+            background: #818CF81A;
+            font-size: 21px;
+        }
+
+        .topic h3 {
+            font-size: 15px;
+            color: #F1F5F9;
+            line-height: 1.5;
+            margin-bottom: 4px;
+        }
+
+        .topic p {
+            font-size: 13px;
+            color: var(--muted);
+            line-height: 1.6;
+            margin: 0;
+        }
+
+        .support-card {
+            padding: 30px 24px;
+            border-radius: 18px;
+            text-align: center;
+            border: 1px solid #6366F180;
+            background: linear-gradient(145deg, #25245A, #17233B);
+            margin-bottom: 25px;
+        }
+
+        .support-icon {
+            width: 60px;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 15px;
+            border-radius: 18px;
+            background: #818CF825;
+            font-size: 28px;
+        }
+
+        .support-card h2 {
+            color: #FFFFFF;
+            font-size: 23px;
+            margin-bottom: 8px;
+        }
+
+        .support-card p {
+            color: #C7D2FE;
+            font-size: 14px;
+            margin-bottom: 18px;
+        }
+
+        .email-link {
+            display: inline-block;
+            max-width: 100%;
+            overflow-wrap: anywhere;
+            color: #FFFFFF;
+            font-weight: bold;
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+
+        .email-button {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 9px;
+            padding: 13px 24px;
+            background: linear-gradient(135deg, #7C3AED, #4F46E5);
+            color: #FFFFFF;
+            font-size: 14px;
+            font-weight: bold;
+            border-radius: 10px;
+            box-shadow: 0 8px 25px #4F46E540;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .email-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 12px 30px #4F46E560;
+        }
+
+        .email-button:focus-visible {
+            outline: 2px solid white;
+            outline-offset: 4px;
+        }
+
+        .response-note {
+            padding: 20px;
+            background: #17233B;
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            text-align: center;
+            margin-bottom: 25px;
+        }
+
+        .response-note p {
+            color: var(--muted);
+            font-size: 14px;
+            margin: 0;
+        }
+
+        .developer {
+            padding: 20px;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+
+        .developer p {
+            color: var(--muted);
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+
+        .developer strong {
+            color: #E0E7FF;
+        }
+
+        .tagline {
+            text-align: center;
+            padding: 22px 10px 5px;
+            color: #A5B4FC;
+            font-weight: bold;
+            letter-spacing: 1.5px;
+            font-size: 14px;
+        }
+
+        footer {
+            padding: 22px 15px;
+            text-align: center;
+            border-top: 1px solid var(--border);
+            color: #94A3B8;
+            font-size: 13px;
+        }
+
+        footer p {
+            margin-bottom: 5px;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 12px;
+            }
+
+            .header {
+                padding: 35px 18px;
+            }
+
+            .content {
+                padding: 23px 17px;
+            }
+
+            .topics {
+                grid-template-columns: 1fr;
+            }
+
+            .welcome h2 {
+                font-size: 22px;
+            }
+
+            .support-card {
+                padding: 25px 17px;
+            }
+
+            .email-link {
+                font-size: 14px;
+            }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            *,
+            *::before,
+            *::after {
+                scroll-behavior: auto !important;
+                transition: none !important;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header class="header">
+
+            <h1>Contact Us</h1>
+
+            <p>
+                Word Matching Card Puzzle
+            </p>
+        </header>
+
+        <main class="content">
+
+            <div class="welcome">
+                <h2>We're Here to Help! 💜</h2>
+
+                <p>
+                    Have questions, feedback, or need help with
+                    Word Matching Card Puzzle? We're here to help!
+                </p>
+
+                <p>
+                    We welcome your suggestions and feedback to make
+                    the game better for everyone.
+                </p>
+            </div>
+
+            <div class="section-label">
+                How Can We Help You?
+            </div>
+
+            <div class="topics">
+
+                <div class="topic">
+                    <div class="topic-icon" aria-hidden="true">🎮</div>
+                    <div>
+                        <h3>Game Issues</h3>
+                        <p>
+                            Report bugs, crashes, technical problems,
+                            or other gameplay concerns.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="topic">
+                    <div class="topic-icon" aria-hidden="true">💾</div>
+                    <div>
+                        <h3>Lost Game Progress</h3>
+                        <p>
+                            Let us know about missing levels,
+                            coins, or saved game progress.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="topic">
+                    <div class="topic-icon" aria-hidden="true">📺</div>
+                    <div>
+                        <h3>Advertisement Issues</h3>
+                        <p>
+                            Contact us about ad errors or
+                            rewarded ads that did not grant a reward.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="topic">
+                    <div class="topic-icon" aria-hidden="true">💡</div>
+                    <div>
+                        <h3>Suggestions & Ideas</h3>
+                        <p>
+                            Share ideas for new features,
+                            levels, and game improvements.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="topic">
+                    <div class="topic-icon" aria-hidden="true">🔒</div>
+                    <div>
+                        <h3>Privacy Questions</h3>
+                        <p>
+                            Ask questions about our Privacy Policy
+                            or how the game handles information.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="topic">
+                    <div class="topic-icon" aria-hidden="true">📄</div>
+                    <div>
+                        <h3>Terms & Conditions</h3>
+                        <p>
+                            Contact us if you have questions
+                            about our terms of use.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="support-card">
+
+                <div class="support-icon" aria-hidden="true">✉️</div>
+
+                <h2>Get in Touch</h2>
+
+                <p>
+                    Send us an email and tell us how we can help.
+                    We will do our best to assist you.
+                </p>
+
+                <!-- Replace this email with your actual support email -->
+                <a
+                    class="email-link"
+                    href="mailto:myfirstapppuzzle@gmail.com">
+                    myfirstapppuzzle@gmail.com
+                </a>
+
+                <br>
+
+                <a
+                    class="email-button"
+                    href="mailto:myfirstapppuzzle@gmail.com?subject=Word%20Matching%20Card%20Puzzle%20Support">
+                    <span aria-hidden="true">✉</span>
+                    Contact Support
+                </a>
+
+            </div>
+
+            <div class="response-note">
+                <p>
+                    ⏳ We will do our best to review your message
+                    and respond as soon as reasonably possible.
+                </p>
+            </div>
+
+            <div class="developer">
+                <p><strong>Developer</strong></p>
+                <p>Word Matching Card Puzzle Team</p>
+            </div>
+
+            <div class="tagline">
+                THINK. MATCH. COMPLETE. WIN!
+            </div>
+
+        </main>
+
+        <footer>
+            <p>Thank you for playing Word Matching Card Puzzle! 💜</p>
+            <p>&copy; 2026 Word Matching Card Puzzle. All rights reserved.</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
