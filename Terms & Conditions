@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#0B1020">
+
+    <title>Terms & Conditions | Word Matching Card Puzzle</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #0B1020;
+            color: #E5E7EB;
+            line-height: 1.8;
+            padding: 30px 16px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #111A2E;
+            border: 1px solid #263450;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.35);
+        }
+
+        .header {
+            padding: 45px 35px;
+            text-align: center;
+            background: linear-gradient(135deg, #312E81, #6D28D9, #2563EB);
+        }
+
+        .logo {
+            width: 65px;
+            height: 65px;
+            margin: 0 auto 18px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 18px;
+            background: rgba(255, 255, 255, 0.15);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            font-size: 28px;
+            font-weight: bold;
+            color: #FFFFFF;
+        }
+
+        .header h1 {
+            color: #FFFFFF;
+            font-size: clamp(25px, 5vw, 36px);
+            line-height: 1.3;
+            margin-bottom: 12px;
+        }
+
+        .header p {
+            color: #E0E7FF;
+            font-size: 15px;
+        }
+
+        .content {
+            padding: 35px;
+        }
+
+        .effective-date {
+            display: inline-block;
+            padding: 8px 14px;
+            margin-bottom: 25px;
+            border-radius: 8px;
+            background: #1E293B;
+            color: #A5B4FC;
+            font-size: 14px;
+        }
+
+        .intro {
+            color: #CBD5E1;
+            margin-bottom: 30px;
+        }
+
+        section {
+            margin-bottom: 30px;
+            padding-bottom: 25px;
+            border-bottom: 1px solid #263450;
+        }
+
+        section:last-of-type {
+            border-bottom: none;
+        }
+
+        h2 {
+            color: #A5B4FC;
+            font-size: 21px;
+            line-height: 1.5;
+            margin-bottom: 13px;
+        }
+
+        p {
+            color: #CBD5E1;
+            margin-bottom: 12px;
+        }
+
+        ul {
+            padding-left: 25px;
+            margin: 12px 0;
+            color: #CBD5E1;
+        }
+
+        li {
+            margin-bottom: 8px;
+            padding-left: 4px;
+        }
+
+        a {
+            color: #818CF8;
+            text-decoration: none;
+            overflow-wrap: anywhere;
+        }
+
+        a:hover {
+            color: #C4B5FD;
+            text-decoration: underline;
+        }
+
+        .contact-card {
+            background: #17233B;
+            border: 1px solid #334568;
+            border-radius: 12px;
+            padding: 20px;
+            margin-top: 15px;
+        }
+
+        .contact-card p:last-child {
+            margin-bottom: 0;
+        }
+
+        .closing {
+            background: #1B2440;
+            border-left: 4px solid #818CF8;
+            border-radius: 8px;
+            padding: 20px;
+            color: #E0E7FF;
+            margin-top: 25px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 22px 15px;
+            border-top: 1px solid #263450;
+            color: #94A3B8;
+            font-size: 13px;
+        }
+
+        footer p {
+            margin-bottom: 5px;
+            font-size: 13px;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 12px;
+            }
+
+            .header {
+                padding: 32px 18px;
+            }
+
+            .content {
+                padding: 23px 19px;
+            }
+
+            h2 {
+                font-size: 19px;
+            }
+
+            .container {
+                border-radius: 14px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <header class="header">
+        <div class="logo">WM</div>
+        <h1>Terms &amp; Conditions</h1>
+        <p>Word Matching Card Puzzle</p>
+    </header>
+
+    <main class="content">
+
+        <div class="effective-date">
+            Effective Date: October 25, 2026
+        </div>
+
+        <p class="intro">
+            Welcome to Word Matching Card Puzzle. These Terms and Conditions
+            explain the rules and conditions for using our game. Please read
+            them carefully before playing.
+        </p>
+
+        <section>
+            <h2>1. Acceptance of Terms</h2>
+            <p>
+                Welcome to Word Matching Card Puzzle Game.
+                By downloading, installing, or using the Game, you agree to
+                these Terms and Conditions. If you do not agree with these
+                terms, please stop using the Game and uninstall it from
+                your device.
+            </p>
+        </section>
+
+        <section>
+            <h2>2. About the Game</h2>
+            <p>
+                Word Matching Card Puzzle is a word puzzle game in which
+                players match letter cards, follow the correct letter
+                sequence, complete words, and progress through levels.
+            </p>
+            <p>
+                The Game may include timers, limited moves, in-game coins,
+                power-ups, and advertisements.
+            </p>
+        </section>
+
+        <section>
+            <h2>3. Eligibility and Use</h2>
+            <p>
+                You may use the Game for personal, non-commercial entertainment,
+                subject to applicable laws and these terms.
+            </p>
+            <p>
+                If you are a minor, you should use the Game with the guidance
+                of a parent or legal guardian where required by law.
+            </p>
+            <p>You agree not to:</p>
+            <ul>
+                <li>Use the Game for unlawful purposes.</li>
+                <li>Attempt to modify, exploit, or interfere with the Game's functionality.</li>
+                <li>Manipulate advertisements or engage in fraudulent ad interactions.</li>
+                <li>Reverse engineer or redistribute the Game except where permitted by applicable law.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>4. Game Progress and Local Storage</h2>
+            <p>
+                The Game does not require a user account and does not use a
+                developer-operated online database to store gameplay progress.
+            </p>
+            <p>
+                Game information, which may include current levels, coins,
+                settings, and saved game state, may be stored locally on your
+                device.
+            </p>
+            <p>
+                You are responsible for maintaining your device and its data.
+                Uninstalling the Game, clearing its app data, or changing
+                devices may result in loss of locally stored progress.
+            </p>
+            <p>
+                We do not guarantee that game progress can always be recovered.
+            </p>
+        </section>
+
+        <section>
+            <h2>5. Virtual Coins and Power-Ups</h2>
+            <p>
+                The Game may provide virtual coins and power-ups for use
+                within the Game.
+            </p>
+            <ul>
+                <li>Virtual coins are intended for in-game use only.</li>
+                <li>Virtual coins have no cash value and cannot be exchanged for real money.</li>
+                <li>Virtual coins cannot be transferred to another player unless a transfer feature is explicitly provided.</li>
+                <li>Power-ups may have specific in-game costs, limitations, or conditions.</li>
+                <li>We may adjust game balance, rewards, coin amounts, or power-up functionality to maintain or improve gameplay.</li>
+            </ul>
+            <p>
+                Virtual coins do not represent a bank balance, deposit,
+                investment, or financial entitlement.
+            </p>
+        </section>
+
+        <section>
+            <h2>6. Advertisements and Rewarded Ads</h2>
+            <p>
+                The Game uses Google AdMob to display banner advertisements,
+                interstitial advertisements, and rewarded video advertisements.
+            </p>
+            <p>
+                Advertisements are provided by a third party and may be subject
+                to Google's terms, policies, and privacy practices.
+            </p>
+            <p>
+                Where the Game offers a reward for watching an advertisement,
+                the reward is subject to the applicable in-game conditions and
+                successful confirmation of the rewarded ad event.
+            </p>
+            <p>
+                Rewards may not be granted if an advertisement fails to load,
+                is interrupted, or does not complete successfully.
+            </p>
+            <p>
+                You must not click your own ads, artificially generate ad
+                impressions, or attempt to manipulate advertising systems.
+            </p>
+            <p>
+                For more information, review Google's policies:
+            </p>
+            <ul>
+                <li>
+                    <a href="https://policies.google.com/privacy"
+                       target="_blank" rel="noopener noreferrer">
+                        Google Privacy Policy
+                    </a>
+                </li>
+                <li>
+                    <a href="https://developers.google.com/admob/terms"
+                       target="_blank" rel="noopener noreferrer">
+                        Google AdMob Terms
+                    </a>
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>7. Updates and Availability</h2>
+            <p>
+                We may update, improve, modify, or discontinue features of the
+                Game when reasonably necessary.
+            </p>
+            <p>
+                We do not guarantee that the Game will always be available,
+                error-free, or compatible with every device or Android version.
+            </p>
+            <p>
+                Certain features, including advertisements, may require an
+                internet connection.
+            </p>
+        </section>
+
+        <section>
+            <h2>8. Intellectual Property</h2>
+            <p>
+                The Game's original design, branding, code, graphics, and other
+                materials are owned by the developer or used under applicable
+                permissions or licenses.
+            </p>
+            <p>
+                You may not copy, distribute, sell, or commercially exploit
+                these materials without authorization, except where permitted
+                by applicable law.
+            </p>
+        </section>
+
+        <section>
+            <h2>9. Third-Party Services</h2>
+            <p>
+                The Game uses Google AdMob for advertising. Third-party
+                services are governed by their own terms and policies.
+            </p>
+            <p>
+                We are not responsible for the independent content, services,
+                or policies of third parties, to the extent permitted by
+                applicable law.
+            </p>
+        </section>
+
+        <section>
+            <h2>10. Disclaimer</h2>
+            <p>
+                The Game is provided for entertainment purposes on an
+                “as available” basis.
+            </p>
+            <p>
+                To the extent permitted by applicable law, we do not guarantee
+                uninterrupted operation, error-free performance, or permanent
+                preservation of game progress.
+            </p>
+            <p>
+                Nothing in these terms excludes any consumer rights or legal
+                protections that cannot lawfully be excluded.
+            </p>
+        </section>
+
+        <section>
+            <h2>11. Limitation of Liability</h2>
+            <p>
+                To the extent permitted by applicable law, the developer will
+                not be liable for indirect or incidental losses arising from
+                the use of the Game, including loss of locally stored progress.
+            </p>
+            <p>
+                These terms do not limit liability where such limitation is
+                prohibited by applicable law.
+            </p>
+        </section>
+
+        <section>
+            <h2>12. Changes to These Terms</h2>
+            <p>
+                We may revise these Terms and Conditions when the Game or
+                applicable legal requirements change.
+            </p>
+            <p>
+                The updated terms will be published with a revised effective
+                date. Continued use of the Game after changes take effect
+                constitutes acceptance of the revised terms where permitted
+                by applicable law.
+            </p>
+        </section>
+
+        <section>
+            <h2>13. Termination</h2>
+            <p>
+                You may stop using the Game at any time by uninstalling it
+                from your device.
+            </p>
+            <p>
+                We may restrict or discontinue access to the Game where
+                reasonably necessary to address misuse, security issues,
+                legal requirements, or operational concerns.
+            </p>
+        </section>
+
+        <section>
+            <h2>14. Governing Law</h2>
+            <p>
+                These Terms and Conditions are subject to applicable laws.
+                Any disputes will be handled by the competent courts or
+                authorities as required by applicable law.
+            </p>
+        </section>
+
+        <section>
+            <h2>15. Contact Information</h2>
+            <p>
+                For questions about these Terms and Conditions, please contact:
+            </p>
+
+            <div class="contact-card">
+                <p><strong>App Name:</strong> Word Matching Card Puzzle</p>
+                <p>
+                    <strong>Developer Contact Email:</strong>
+                    <a href="mailto:myfirstapppuzzle@gmail.com">
+                        myfirstapppuzzle@gmail.com
+                    </a>
+                </p>
+            </div>
+        </section>
+
+        <div class="closing">
+            By using Word Matching Card Puzzle, you acknowledge that you have
+            read and understood these Terms and Conditions.
+        </div>
+
+    </main>
+
+    <footer>
+        <p>Word Matching Card Puzzle</p>
+        <p>&copy; 2026 All rights reserved.</p>
+    </footer>
+
+</div>
+
+</body>
+</html>
