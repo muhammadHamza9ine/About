@@ -3,3 +3,5 @@ About Page : </br> https://muhammadhamza9ine.github.io/About/
 Privacy Policy Page : </br> https://muhammadhamza9ine.github.io/About/privacy
 </br>
 Terms & Conditions Page : </br> https://muhammadhamza9ine.github.io/About/terms.html
+</br>
+Contact Page : </br> https://muhammadhamza9ine.github.io/About/contact.html
