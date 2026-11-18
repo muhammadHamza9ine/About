@@ -7,3 +7,5 @@ Terms & Conditions Page : </br> https://muhammadhamza9ine.github.io/About/terms.
 Contact Page : </br> https://muhammadhamza9ine.github.io/About/contact.html
 </br>
 Disclaimer : </br> https://muhammadhamza9ine.github.io/About/disclaimer.html
+</br>
+ads-app.txt: </br> https://muhammadhamza9ine.github.io/About/app-ads.txt
